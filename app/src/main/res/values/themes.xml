@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.AppBlocker" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorSecondary">@color/accent</item>
+    </style>
+
+    <!-- Full-screen, no title bar. Plain framework theme because BlockActivity
+         extends android.app.Activity rather than AppCompatActivity. -->
+    <style name="Theme.AppBlocker.Block" parent="@android:style/Theme.Material.NoActionBar.Fullscreen">
+        <item name="android:windowBackground">@color/block_background</item>
+    </style>
+
+</resources>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">App Blocker</string>
+    <string name="service_label">App Blocker</string>
+    <string name="service_description">Watches which app comes to the foreground and closes the ones you have chosen to block. Nothing is collected, stored off-device, or sent anywhere.</string>
+
+    <string name="master_switch_label">Blocking active</string>
+    <string name="master_switch_hint">Turn this on to start blocking the apps you ticked below.</string>
+
+    <string name="setup_heading">Setup</string>
+    <string name="grant_accessibility">1. Turn on the accessibility service</string>
+    <string name="grant_overlay">2. Allow display over other apps</string>
+    <string name="status_service_on">Accessibility service: ON</string>
+    <string name="status_service_off">Accessibility service: OFF — blocking will not work</string>
+    <string name="status_overlay_on">Display over other apps: ON</string>
+    <string name="status_overlay_off">Display over other apps: OFF — you will just be sent to the home screen</string>
+
+    <string name="apps_heading">Apps to block</string>
+    <string name="search_hint">Search apps</string>
+    <string name="show_system_apps">Also show packages with no home-screen icon</string>
+    <string name="loading_apps">Loading installed apps…</string>
+
+    <string name="blocked_title">Blocked</string>
+    <string name="blocked_message">You chose to block this app.</string>
+    <string name="this_app">This app</string>
+    <string name="close_button">OK</string>
+
+    <string name="toast_no_settings">Could not open that settings screen on this device. Open Settings manually.</string>
+</resources>
